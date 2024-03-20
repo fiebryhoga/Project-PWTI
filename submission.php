@@ -106,7 +106,7 @@
     <?php include 'navbar.php';?>
 
     <section class="section-submission" style="margin-top: 6em;">
-        <div class="d-flex flex-column rounded pb-4" style="background-color:#e8e8e8;">
+        <div class="d-flex flex-column rounded pb-4" style="background-color: #e8e8e8;">
             <div class=" pt-4 pb-2 d-flex justify-content-center border-bottom border-bottom border-3 border-white ">
                 <h3>PENGAJUAN BUKU</h3>
             </div>
@@ -271,7 +271,6 @@
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 <?php include 'footer.php';?>
 </html>

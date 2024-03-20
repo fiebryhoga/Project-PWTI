@@ -1,3 +1,7 @@
+<style>
+  
+</style>
+
 <nav class="navbar navbar-expand-lg fixed-top px-5 py-3" style="background-color: rgba(255, 255, 255, 0.4); backdrop-filter: blur(1px); -webkit-backdrop-filter: blur(5px);">
   <div class="container-fluid">
     <div class="container-logo">
