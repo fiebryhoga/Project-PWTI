@@ -8,6 +8,8 @@
 
     <title>Document</title>
     <style>
+        @import url("https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&family=Mandali&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
         body {
   margin: 0;
   padding-left: 3em;
@@ -116,34 +118,34 @@
             <div class=" pt-4 pb-2 d-flex justify-content-center border-bottom border-bottom border-3 border-white ">
                 <h3>PENGAJUAN BUKU</h3>
             </div>
-            <form class="container_form d-flex flex-column gap-3 mt-4" action="hasil.php" method="POST">
+            <form class="container_form d-flex flex-column gap-3 mt-4" action="hasil.php" method="POST" enctype="multipart/form-data">
                 <h4>Informasi Penulis</h4>
                 <div class="form-penulis">
                     <div class="grup-formulir">
                         <label for="">Nama Penulis</label>
-                        <input name="penulis" class="input rounded" type="text"
+                        <input name="penulis" class="input rounded" type="text" required"
                             placeholder="Pisahkan dengan (koma) jika lebih dari satu">
 
                     </div>
                     <div class="grup-formulir">
                         <label for="">Email</label>
-                        <input name="email" class="input rounded" type="mail" placeholder="Masukkan email yang valid">
+                        <input name="email" class="input rounded" type="mail" required placeholder="Masukkan email yang valid">
 
                     </div>
                     <div class="grup-formulir">
                         <label for="">Nomor Telepon</label>
-                        <input name="telephone" class="input rounded" type="text/number"
+                        <input required name="telephone" class="input rounded" type="text/number"
                             placeholder="Masukkan awalan +62 untuk region Indonesia">
 
                     </div>
                     <div class="grup-formulir">
                         <label for="">Alamat</label>
-                        <input name="alamat" class="input rounded" type="text" placeholder="Masukkan alamat lengkap">
+                        <input required name="alamat" class="input rounded" type="text" placeholder="Masukkan alamat lengkap">
 
                     </div>
                     <div class="grup-formulir">
                         <label for="">Pekerjaan</label>
-                        <input name="pekerjaan" class="input rounded" list="pekerjaan" placeholder="Masukkan bidang pekerjaan">
+                        <input required name="pekerjaan" class="input rounded" list="pekerjaan" placeholder="Masukkan bidang pekerjaan">
                         <datalist id="pekerjaan">
                             <option value="Mahasiswa">Mahasiswa</option>
                             <option value="Penulis lepas">Penulis lepas</option>
@@ -192,18 +194,18 @@
                 <div class="form-buku">
                     <div class="grup-formulir">
                         <label for="">Judul Buku</label>
-                        <input name="judul"  class="input rounded" type="text" maxlength="60"
+                        <input required name="judul"  class="input rounded" type="text" maxlength="60"
                             placeholder="Masukkan judul dengan maksimal 60 karakter">
 
                     </div>
                     <div class="grup-formulir">
                         <label for="">Jumlah Halaman</label>
-                        <input name="halaman" class="input rounded" type="number" placeholder="Masukkan jumlah halaman">
+                        <input required name="halaman" class="input rounded" type="number" placeholder="Masukkan jumlah halaman">
 
                     </div>
                     <div class="grup-formulir">
                         <label for="">Genre</label>
-                        <input name="genre"class="input rounded" list="genre" placeholder="Masukkan bidang pekerjaan">
+                        <input required name="genre"class="input rounded" list="genre" placeholder="Masukkan bidang pekerjaan">
                         <datalist id="genre">
                             <option value="Fantasi">
                             <option value="Misteri">
@@ -230,7 +232,7 @@
                     </div>
                     <div class="grup-formulir">
                         <label for="">Sinopsis</label>
-                        <textarea name="sinopsis" class="input rounded" type="text" maxlength="600"
+                        <textarea required name="sinopsis" class="input rounded" type="text" maxlength="600"
                             placeholder="Masukkan sinopsis dengan maksimal 600 karakter"></textarea>
                     </div>
                     <div class="grup-formulir-upload">
@@ -246,7 +248,7 @@
                             <div class="text">
                                 <span id="file-label">Upload cover</span>
                             </div>
-                            <input id="foto" name="cover" class="hide-me" type="file" accept="image/jpeg, image/png"
+                            <input required id="foto" name="cover" class="hide-me" type="file" accept="image/jpeg, image/png"
                                 onchange="updateLabel()">
                         </label>
 
@@ -264,7 +266,7 @@
                             <div class="text">
                                 <span id="file-label">Upload Dokumen</span>
                             </div>
-                            <input name="dokumen" class="hide-me" id="file" type="file" accept="application/pdf"
+                            <input required name="dokumen" class="hide-me" id="file" type="file" accept="application/pdf"
                                 onchange="updateLabel()">
                         </label>
 
@@ -280,4 +282,3 @@
 </body>
 <?php include 'footer.php';?>
 </html>
-

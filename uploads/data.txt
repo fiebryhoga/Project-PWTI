@@ -1,0 +1,65 @@
+penulis: 
+email: 
+nomor telepon: 
+alamat: 
+pekerjaan: 
+judul: 
+genre: 
+halaman: 
+sinopsis: 
+cover: Red and Yellow Catering Flat Illustrative Food Place Logo.png
+dokumen: 
+-----------------------------------------------------
+
+penulis: 
+email: 
+nomor telepon: 
+alamat: 
+pekerjaan: 
+judul: 
+genre: 
+halaman: 
+sinopsis: 
+cover: Red and Yellow Catering Flat Illustrative Food Place Logo.png
+dokumen: 
+-----------------------------------------------------
+
+penulis: 
+email: 
+nomor telepon: 
+alamat: 
+pekerjaan: 
+judul: 
+genre: 
+halaman: 
+sinopsis: 
+cover: Red and Yellow Catering Flat Illustrative Food Place Logo.png
+dokumen: 
+-----------------------------------------------------
+
+penulis: 
+email: 
+nomor telepon: 
+alamat: 
+pekerjaan: 
+judul: 
+genre: 
+halaman: 
+sinopsis: 
+cover: 
+dokumen: 
+-----------------------------------------------------
+
+penulis: Dimas Fiebry Prayhoga Putra
+email: dimas fiebry@student.ub.ac.id
+nomor telepon: +628573840383
+alamat: sdfafdsf
+pekerjaan: Penulis teknis
+judul: fvdf
+genre: Romane
+halaman: 342
+sinopsis: gvfvfdvdfvfdvfdvfdgd
+cover:  .jpg
+dokumen: 225150601111005 - Muhammad Rafli Pradipta - Modul 3 - Kelompok 5.pdf
+-----------------------------------------------------
+

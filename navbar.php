@@ -1,5 +1,55 @@
 <style>
-  
+  .container-fluid {
+  display: flex !important;
+  flex-direction: row !important;
+}
+
+.container-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  width: 400px;
+  gap: 40px;
+}
+@media (max-width: 991px) {
+  .container-logo {
+    width: 100%;
+    justify-content: space-between;
+  }
+}
+.navbar-brand {
+  font-size: 20px;
+  font-weight: 600;
+}
+.span-text {
+  color: #1b4b8e;
+}
+.container-logo {
+  gap: 10px;
+}
+.logo {
+  width: 45px;
+}
+
+.navbar-nav {
+  gap: 5em;
+}
+
+.form-control {
+  border-color: #144f9f;
+  font-size: 14px;
+  cursor: progress;
+  box-shadow: none !important;
+}
+
+.btn {
+  border-color: #144f9f;
+  color: #144f9f;
+}
+.btn:hover {
+  background-color: #144f9f;
+  color: aliceblue;
+}
 </style>
 
 <nav class="navbar navbar-expand-lg fixed-top px-5 py-3" style="background-color: rgba(255, 255, 255, 0.4); backdrop-filter: blur(1px); -webkit-backdrop-filter: blur(5px);">
