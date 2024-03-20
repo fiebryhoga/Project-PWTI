@@ -7,7 +7,14 @@
     <link rel="stylesheet" href="style.css">
 
     <title>Document</title>
-
+    <style>
+        body {
+  margin: 0;
+  padding-left: 3em;
+  padding-right: 3em;
+  font-family: "Poppins", sans-serif;
+}
+    </style>
 </head>
 <body>
     <?php include 'navbar.php';?>

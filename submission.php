@@ -8,6 +8,12 @@
 
     <title>Document</title>
     <style>
+        body {
+  margin: 0;
+  padding-left: 3em;
+  padding-right: 3em;
+  font-family: "Poppins", sans-serif;
+}
     h4 {
         color: gray;
         font-size: medium;
@@ -224,8 +230,8 @@
                     </div>
                     <div class="grup-formulir">
                         <label for="">Sinopsis</label>
-                        <textarea name="sinopsis" class="input rounded" type="text" maxlength="250"
-                            placeholder="Masukkan sinopsis dengan maksimal 250 karakter"></textarea>
+                        <textarea name="sinopsis" class="input rounded" type="text" maxlength="600"
+                            placeholder="Masukkan sinopsis dengan maksimal 600 karakter"></textarea>
                     </div>
                     <div class="grup-formulir-upload">
                         <label for="file" class="custum-file-upload d-flex flex-column align-items-center pt-4">
