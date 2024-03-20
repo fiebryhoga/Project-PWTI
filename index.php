@@ -1,3 +1,24 @@
+<?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    // Tangkap data dari formulir
+    $nama_penulis = $_POST['nama'];
+    $email = $_POST['email'];
+    $no_telepon = $_POST['telephone'];
+    $alamat = $_POST['alamat'];
+    $pekerjaan = $_POST['pekerjaan'];
+    $judul_buku = $_POST['judul'];
+    $jumlah_halaman = $_POST['halaman'];
+    $genre = $_POST['genre'];
+    $sinopsis = $_POST['sinopsis'];
+
+    // Lakukan sesuatu dengan data yang ditangkap, misalnya simpan ke database
+
+    // Redirect ke halaman baru
+    header("Location: halaman_baru.php");
+    exit();
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,17 +28,11 @@
     <link rel="stylesheet" href="style.css">
 
     <title>Document</title>
+    
 </head>
 <body>
 
     <?php include 'navbar.php';?>
-    <?php include 'submission.php';?>
-
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-</body>
-<?php include 'footer.php';?>
+    <?php include 'footer.php';?>
 </html>
 
