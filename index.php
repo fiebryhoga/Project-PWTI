@@ -232,7 +232,7 @@
                     </div>
                     <div class="grup-formulir">
                         <label for="">Sinopsis</label>
-                        <textarea required name="sinopsis" class="input rounded" type="text" maxlength="600"
+                        <textarea required name="sinopsis" class="input rounded" type="text" maxlength="1600"
                             placeholder="Masukkan sinopsis dengan maksimal 600 karakter"></textarea>
                     </div>
                     <div class="grup-formulir-upload">

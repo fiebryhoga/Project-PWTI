@@ -63,3 +63,20 @@ cover:  .jpg
 dokumen: 225150601111005 - Muhammad Rafli Pradipta - Modul 3 - Kelompok 5.pdf
 -----------------------------------------------------
 
+penulis: Adam Smith
+email: Adam@gmail.com
+nomor telepon: +62 8637367222
+alamat: Lowokwaru, Kota Malang, Jawa Timur, 63342
+pekerjaan: Mahasiswa
+judul: This World And Happiness
+genre: Gaya Hidup
+halaman: 324
+sinopsis: pembaca untuk menjelajahi perjalanan yang menginspirasi tentang arti sejati dari kebahagiaan dalam kehidupan sehari-hari. Kisah ini memperkenalkan kita pada karakter utama, seorang tokoh yang bernama Adam, seorang pemuda yang pada awalnya hidup dalam tekanan besar dari tuntutan sosial dan ekonomi yang tak terelakkan. Ia merasa terjebak dalam kemelut rutinitas yang tanpa akhir, dikejar oleh impian-impian yang tampaknya tidak pernah tercapai. Namun, sebuah peristiwa mendadak mengubah pandangan hidupnya secara drastis.
+
+Dalam pencariannya akan arti sejati dari kebahagiaan, Adam bertemu dengan berbagai karakter menarik yang mengajarkannya tentang pentingnya menghargai momen-momen kecil dalam hidup, menjalin hubungan yang bermakna dengan sesama, dan memeluk keunikan dan keindahan dunia di sekitarnya. Dari seorang penjual bunga di sudut jalan yang sederhana namun penuh dengan kegembiraan, hingga seorang petani yang hidup dalam kesederhanaan tetapi penuh dengan kedamaian batin, Adam belajar bahwa kebahagiaan tidak selalu terletak pada materi atau pencapaian besar, tetapi seringkali ditemukan dalam kesederhanaan dan apresiasi akan kehidupan itu sendiri.
+
+Melalui petualangan yang mengasyikkan dan penuh makna ini, pembaca dihadapkan pada pertanyaan yang mendalam tentang apa yang sebenarnya membuat hidup berharga. Dengan setiap halaman yang berlalu, kita diingatkan bahwa kebahagiaan bukanlah tujuan akhir yang harus dicapai, melainkan sebuah perjalanan yang berkelanjutan, terus beradaptasi dengan perubahan dan menemukan keindahan dalam setiap langkahnya.
+cover:  .jpg
+dokumen: 1.+JIKU+VOL+11+NO+1+K.+Pande.+Arya+1-6.pdf
+-----------------------------------------------------
+
