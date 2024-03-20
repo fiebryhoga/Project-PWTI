@@ -146,7 +146,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 <p>sedang dalam proses peninjauan</p>
             </div>
             <div class="container_buku">
-                <img class="cover" src="uploads/<?php echo $cover_name ?>" alt="">
+                <img class="cover" src="uploads/hihi.png <?php echo $cover_name ?>" alt="">
 
                 <h4>
                     <?php echo $judul ?>
